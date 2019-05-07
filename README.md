@@ -15,16 +15,19 @@ Write RSpec tests for each method you use.
 
 ## Up Next
 
-* write test for method get_bowie
-* integrate pry to method get_bowie
-* work on method get_new_releases
+* poke at rspotify methods using pry
 
 ## Current Focus
 
-* N/A (done for today)
+n/a
 
 ## Work Performed
 
+* add .env to gitignore (was done automatically...nice!)
+* work on method get_new_releases
+* work on intergrating dotenv / hiding spotify keys
+* integrate pry to method get_bowie
+* write test for method get_bowie
 * create test method to verify that authentication is working, then remove api token + secret
 * read up on using rspotify / Spotify API
 * https://developer.spotify.com/documentation/web-api/reference/browse/get-list-new-releases/
@@ -34,3 +37,12 @@ Write RSpec tests for each method you use.
 * scaffolding for methods
 * added gems to Gemfile
 * spec created
+
+## PRY Notes
+
+command   notes
+-------   -----
+exit!     quits pry
+q         to break out of displaying var/screen of data
+quit      to continue if in loop, break out if not in loop
+whatever=_ set the last response equal to the variable "whatever"

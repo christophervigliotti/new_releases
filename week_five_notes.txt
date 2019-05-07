@@ -1,0 +1,24 @@
+# Notes
+    .env file file has vars
+      VARNAME=blah
+    Dotenv.load below requirements in new_releases.rb
+    RSpotify::Album.new_releases(country: @countryCode, limit: 1)
+    reviewed and finished code
+    moving forward onto rails!
+    week 5 slides
+      matz
+      David Heinemeier Hanson
+      lets build something
+        voting machine
+          view the topics sorted by number of votes
+          vote on topics
+          create, edit and destroy topics
+
+
+
+# TODO
+    poke at rspotify methods using pry
+    read https://rubyonrails.org/doctrine
+    check out the lessons at thoughtbot https://thoughtbot.com/upcase/practice
+    subscribe to railscast 20-30 minute tutorials
+    xfer these notes to https://github.com/christophervigliotti/ec-rails-training/wiki/Week-5-Notes
